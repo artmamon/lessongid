@@ -1,0 +1,33 @@
+.svetofor{
+	height: 440px;
+	width: 200px;
+	border: 1px solid #000;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.svetofor div{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translate( -50%, 0);
+	box-sizing: border-box;
+}
+.r{
+	background-color: red;
+	top:50px;
+}
+.y{
+	background-color: yellow;
+	top:170px;
+}
+.g{
+	background-color: green;
+	bottom:50px;
+}
+
+}
